@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+
+        android:src="@drawable/ymca" />
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:layout_margin="5dp"
+            android:text= "J.C. Bose University of Science and Technology, YMCA, Faridabad (formerly YMCA University of Science and Technology) was established in 2009 by Haryana State Legislative Act No. 21 of 2009 and Haryana Government Gazette Notification No. 29 of 2009, dated 16.9.2009.
+
+Before the University came into existence, it had a humble beginning in 1969 as YMCA Institute of Engineering with an intake of 120 students. It was an Indo-German Project – a Joint Venture of the State Government (erstwhile Punjab) and National Council of YMCAs of India with active assistance from overseas Agencies of West Germany. The Institute was started with the aim to impart technical education to a developing India on German pattern and to produce highly practical oriented personnel in specialized fields of engineering to meet specific technical manpower requirements of industries."
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="bottom"
+        app:srcCompat="@drawable/ymca2" />
+
+
+
+
+
+</LinearLayout>
